@@ -256,7 +256,7 @@ int main(int argc, char *argv[]) {
 			strcpy(fstr, mkfstr(str, estr, str , &len));
 
 		} else {
-			strcpy(str, mkfstr(str, estr, argv[0], &len));
+			strcpy(fstr, mkfstr(str, estr, argv[0], &len));
 			str++;
 		}
 		lns = cchar(str, '\n');
